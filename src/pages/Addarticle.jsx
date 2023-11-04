@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
 import { Editor } from "@tinymce/tinymce-react";
-import { useDispatch, useSelector } from "react-redux";
+import {useSelector } from "react-redux";
 import toast from "react-hot-toast";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { login } from "../Slice/Userslice";
 import { useFirebaseContext } from "../firebase/FirebaseProvider";
 
 const Addarticle = () => {
