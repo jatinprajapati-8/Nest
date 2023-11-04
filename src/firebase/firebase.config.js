@@ -2,9 +2,8 @@ import { initializeApp } from "firebase/app";
 import { config } from "../../Config/config";
 
 
-
 const firebaseConfig = {
-  apiKey: config.apiKey,
+  apiKey: config.firebaseAPIKey,
   authDomain: config.authDomain,
   projectId: config.projectId,
   storageBucket:config.storageBucket,
@@ -13,5 +12,4 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
-export default app 
+export default app;
