@@ -9,7 +9,7 @@ import Signuppage from "./pages/Auth/Signuppage";
 import NotFound from "./pages/NotFound";
 import Authwraper from "./component/Authwraper";
 import { Toaster } from "react-hot-toast";
-import { login, logout } from "./Slice/Userslice";
+import { login, logout } from "../Slice/Userslice";
 import { useDispatch } from "react-redux";
 import Addarticle from "./pages/Addarticle";
 import Singlearticle from "./pages/Singlearticle";
