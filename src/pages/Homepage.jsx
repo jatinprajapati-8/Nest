@@ -3,7 +3,7 @@ import {NavLink,useNavigate } from "react-router-dom";
 import img from "../assets/3.png";
 import { useDispatch, useSelector } from "react-redux";
 import toast from "react-hot-toast";
-import { logout } from "../Slice/Userslice";
+import { logout } from "../Slice/userSlice";
 import Postcard from "../component/Postcard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Autoplay } from "swiper/modules";

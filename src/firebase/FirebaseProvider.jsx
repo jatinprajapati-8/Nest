@@ -28,7 +28,7 @@ const database = getFirestore(app);
 const google = new GoogleAuthProvider();
 
 const FirebaseProvider = ({ children }) => {
-  const signup = async ({ email, password, displayName }) => {
+  const signup = async ({ email, password }) => {
     try {
       let userinfo = await createUserWithEmailAndPassword(
         auth,
