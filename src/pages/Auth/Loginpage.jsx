@@ -5,7 +5,7 @@ import * as yup from "yup";
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../../Slice/Userslice";
+import { login } from "../../Slice/UserSlice";
 import { useFirebaseContext } from "../../firebase/FirebaseProvider";
 
 export default function Loginpage() {
